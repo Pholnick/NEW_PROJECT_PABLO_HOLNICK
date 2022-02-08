@@ -1,0 +1,84 @@
+
+
+header {
+    background-color:#ffffff;
+    color:#000000;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+button{
+    background-color:#ffffff;
+    color:#000000;
+    padding:10px;
+    border-radius: 5px;
+    border: #c7c7cc 2px solid;
+    box-shadow: 2px 2px 2px #e4e4e4;
+    width: 130px;
+}
+.buttones{
+
+    background-color:#ffffff;
+    color:#000000;
+    padding:10px;
+    border-radius: 5px;
+    border: #c7c7cc 2px solid;
+    box-shadow: 2px 2px 2px #e4e4e4;
+    width: 50px;
+}
+
+
+.day{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    place-items: center;
+    height: 45px;
+    border-bottom: #c7c7cc 3px solid;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows: 120px;
+    text-align: right;
+}
+
+.cal{
+    border: #c7c7cc 2px solid;
+    padding: 20px;
+}
+
+.cales{
+    border: #c7c7cc 2px solid;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #7c7c7c;
+}
+
+.calde{
+    border: #c7c7cc 2px solid;
+    padding: 20px;
+    background-color: #fff;
+    color: #bdbdbd  ;
+}
+
+.circulo {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #eb4d3e;
+	justify-content: center;
+	text-align: center;
+    margin:0px auto;
+    padding:3%;
+    margin-right: -10px;
+    margin-top: -10px;
+    color: #ffffff;
+}
